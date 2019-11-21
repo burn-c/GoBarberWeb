@@ -11,7 +11,7 @@ export default function RouteWrapper({
   isPrivate,
   ...rest
 }) {
-  const signed = true;
+  const signed = false;
 
   // Se o usuário ñ estiver logado ñ tera acesso a rota privada
   if (!signed && isPrivate) {
