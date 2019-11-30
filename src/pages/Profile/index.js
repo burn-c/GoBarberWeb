@@ -12,7 +12,6 @@ export default function Profile() {
   const profile = useSelector(state => state.user.profile);
 
   function handleSubmit(data) {
-    console.tron.log(data);
     dispatch(updateProfileRequest(data));
   }
 
