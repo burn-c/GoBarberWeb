@@ -56,6 +56,7 @@ export default function Dashboard() {
 
       setSchedule(data);
     }
+
     loadSchedule();
   }, [date]);
 
